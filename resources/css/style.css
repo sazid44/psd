@@ -4,8 +4,57 @@ body{
 header{
     background-color:#87509c ;
 height: 85vh;
+position: relative;
 }
 .row{
     margin: 0 auto;
     max-width: 1140px;
+}
+.row a img{
+    transform: translate(100px,30px);
+}
+ul{
+    position: absolute;
+   left: 60%;
+    margin-top: -1px;
+    margin-right: 100px;
+}
+ul li{
+    float: left;
+    list-style-type: none;
+    margin-left: 10px;
+}
+ul li a:link,
+ul li a:visited{
+text-decoration: none;
+color: #fff;
+padding: 5px 14px;
+border-radius: 3px;
+display: inline-block;
+font-size: 16px;
+}
+ul li .active{
+    background: #643a79;
+}
+ul li:hover{
+    background: #643a79;
+    border-radius: 3px;
+}
+.col{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+   
+    
+}
+.col .btn{
+    text-decoration: none;
+    color: #fff;
+ position: absolute;
+ left: 248px;
+ background: #eb7d4b;
+ padding: 14px 45px;
+ font-size: 13.4px;
 }
