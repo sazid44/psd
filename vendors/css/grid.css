@@ -10,15 +10,15 @@
 /*  GROUPING  ============================================================================= */
 
 
-.group:before,
-.group:after {
+.row:before,
+.row:after {
     content:"";
     display:table;
 }
-.group:after {
+.row:after {
     clear:both;
 }
-.group {
+.row {
     zoom:1; /* For IE 6/7 (trigger hasLayout) */
 }
 
@@ -662,6 +662,4 @@
 		width: 100%; 
 	}
 	.span_1_of_12 {
-		width: 100%; 
-	}
-}
+		width: 100%; row
